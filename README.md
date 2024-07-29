@@ -9,18 +9,18 @@ This is a simple calculator application built using C# and Windows Forms. It sup
 - **Clear Functionality**: Includes a clear (AC) button to reset the calculator.
 - **Result Display**: Displays the current operation and result clearly.
   
-##Usage
+## Usage
 
 - **Button Input**: Click the buttons on the calculator to input numbers and operations.
 - **Keyboard Input**: Use the keyboard to input numbers and operations directly.
   
- ##Code Structure
+ ## Code Structure
  
 - **Form1.cs**: Contains the main logic for the calculator.
 - **Program.cs**: Contains the entry point for the application.
 - **Form1.Designer.cs**: Contains the designer-generated code for the UI.
 
-##UI Layout
+## UI Layout
 
 - **Panels**: The application is divided into three main panels:
 
@@ -31,6 +31,6 @@ This is a simple calculator application built using C# and Windows Forms. It sup
 
 - **Label**: The labelCurrentOperation shows the current operation being performed.
 
-##Event Handling
+## Event Handling
 - **Button Clicks**: Each button click is handled to update the display and perform operations.
 - **Keyboard Input**: The KeyPress event is used to handle keyboard input, ensuring it does not duplicate button clicks.
